@@ -344,7 +344,7 @@ img.services-info-img{
     
     .threeColumns{
         display: inline-block;
-        max-width: 32%;
+        width: 32%;
         padding: 35px 0px;
     }
 
@@ -379,9 +379,11 @@ img.services-info-img{
     }
 
     .threeColumns{
-        display: inline-block;
-        max-width: 100%;
-        padding: 20px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 30px;
     }
 
     .navigation-links{
